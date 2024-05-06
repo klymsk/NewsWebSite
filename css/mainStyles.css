@@ -3,24 +3,125 @@
     color: black;
     width: 115px;
     height: 100px;
+    font-family: "Unbounded";
+    font-size: 90px;
+    font-weight: 800;
 }
 
 .Button {
     text-decoration: none;
     color: black;
+    font-family: "Unbounded";
+    font-size: 20px;
+    font-weight: 100;
 }
 
 nav {
     width: 560px;
     height: 30px;
     gap: 40px;
+    margin-top: 35px;
+    display: flex;
 }
 
 header {
     display: flex;
-    justify-content: space-between;;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 body {
     background-color: #FFF8E8;
+    margin: 90px 140px 40px 140px;
+}
+
+.mainPhotoNews {
+    width: 1050px;
+    height: 430px;
+    margin-bottom: 40px;
+}
+
+.firstHeader {
+    text-decoration: none;
+    color: black;
+    width: 700px;
+    height: 320px;
+    font-family: "Unbounded";
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.descriptionNews {
+    text-decoration: none;
+    color: black;
+    font-family: "Unbounded";
+    font-size: 15px;
+    font-weight: 550;
+    width: 400px;
+    height: 110px;
+}
+
+.textButton {
+    text-decoration: none;
+    color: white;
+    font-family: "Unbounded";
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.buttonMore {
+    width: 240px;
+    height: 80px;
+    background-color: #FF5858;
+    display: flex; 
+    justify-content: center; 
+}
+
+.infoAbNews {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 1050px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsOfDay {
+    background-color: #000233;
+    width: 450px;
+    height: 820px;
+    margin-left: 50px;
+}
+
+.newsDayHeader {
+    color: #FFB800;
+    font-family: "Unbounded";
+    font-size: 35px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 40px;
+    margin-bottom: 60px;
+}
+
+.headerInBlock {
+    text-decoration: none;
+    color: white;
+    font-family: "Unbounded";
+    font-size: 35px;
+    font-weight: 450;
+}
+
+.descriptionInBlock {
+    color: white;
+    font-family: "Unbounded";
+    font-size: 15px;
+    font-weight: 250;
 }
