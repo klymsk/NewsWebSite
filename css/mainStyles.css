@@ -123,5 +123,30 @@ main {
     color: white;
     font-family: "Unbounded";
     font-size: 15px;
-    font-weight: 250;
+    font-weight: 150;
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.blockOfNews1 {
+    margin-left: 20px;
+}
+
+.blockOfNews2 {
+    margin-left: 20px;
+}
+
+.blockOfNews3 {
+    margin-left: 20px;
+}
+
+.blockOfNews4 {
+    margin-left: 20px;
+}
+
+.newsOfDayList {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
