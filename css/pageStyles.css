@@ -86,12 +86,14 @@ body {
 }
 
 .follow {
+    text-decoration: none;
     color: black;
     font-family: "Unbounded";
     font-size: 10px;
     font-weight: 700;
     display: flex;
     justify-content: center;
+    margin-top: 8px;
 }
 
 .boxInstagram {
