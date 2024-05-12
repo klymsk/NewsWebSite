@@ -1,0 +1,110 @@
+.mainLogo {
+    text-decoration: none;
+    color: black;
+    width: 115px;
+    height: 100px;
+    font-family: "Unbounded";
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.Button {
+    text-decoration: none;
+    color: black;
+    font-family: "Unbounded";
+    font-size: 20px;
+    font-weight: 100;
+}
+
+nav {
+    width: 560px;
+    height: 30px;
+    gap: 40px;
+    margin-top: 35px;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #FFF8E8;
+    margin: 90px 140px 40px 140px;
+}
+
+.mainBlock {
+    background-color: #000233;
+    width: 1220px;
+    height: 520px;
+}
+
+.photoUser {
+    width: 240px;
+    height: 240px;
+    margin-top: 80px;
+    margin-left: 85px;
+}
+
+.nameTopic1 {
+    color: white;
+    font-family: "Unbounded";
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+.nameTopic2 {
+    color: white;
+    font-family: "Unbounded";
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+.nameTopic3 {
+    color: white;
+    font-family: "Unbounded";
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+.nameTopic4 {
+    color: white;
+    font-family: "Unbounded";
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+.nameTopic5 {
+    color: white;
+    font-family: "Unbounded";
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+.userName {
+    font-family: "Unbounded";
+    font-size: 40px;
+    font-weight: 800px;
+    color: #FFB800;
+}
+
+.nameBlock {
+    font-family: "Unbounded";
+    font-size: 20px;
+    font-weight: 350px;
+    color: white;
+}
+
+.descriptionUser {
+    font-family: "Unbounded";
+    font-size: 20px;
+    font-weight: 450px;
+    color: white;
+}
+
+.mainBlock {
+    display: flex;
+    flex-direction: row;
+}
