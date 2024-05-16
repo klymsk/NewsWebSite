@@ -35,52 +35,96 @@ body {
     margin: 90px 140px 40px 140px;
 }
 
-.mainBlock {
+main {
     background-color: #000233;
     width: 1220px;
     height: 520px;
+    margin-top: 130px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .photoUser {
     width: 240px;
     height: 240px;
-    margin-top: 80px;
     margin-left: 85px;
 }
 
 .nameTopic1 {
+    background-color: #FF7354;
+    width: 70px;
+    height: 20px;
     color: white;
     font-family: "Unbounded";
     font-size: 10px;
     font-weight: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .nameTopic2 {
+    background-color: #1BC841;
+    width: 70px;
+    height: 20px;
     color: white;
     font-family: "Unbounded";
     font-size: 10px;
     font-weight: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .nameTopic3 {
+    background-color: #E18AFF;
+    width: 70px;
+    height: 20px;
     color: white;
     font-family: "Unbounded";
     font-size: 10px;
     font-weight: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .nameTopic4 {
+    background-color: #FF7A9A;
+    width: 70px;
+    height: 20px;
     color: white;
     font-family: "Unbounded";
     font-size: 10px;
     font-weight: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .nameTopic5 {
+    background-color: #717171;
+    width: 70px;
+    height: 20px;
     color: white;
     font-family: "Unbounded";
     font-size: 10px;
     font-weight: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.firstLineBlocks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 90px;
+    gap: 15px;
+}
+
+.secondLineBlocks {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    gap: 15px;
 }
 
 .userName {
@@ -102,9 +146,22 @@ body {
     font-size: 20px;
     font-weight: 450px;
     color: white;
+    width: 750px;
+    height: 200px;
 }
 
-.mainBlock {
+.blockInfUser {
+    gap: 15px;
+}
+
+.mainInformation {
+    display: flex;
+    flex-direction: column;
+}
+
+.generalInfo {
     display: flex;
     flex-direction: row;
+    gap: 100px;
 }
+
