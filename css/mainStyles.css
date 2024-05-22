@@ -70,13 +70,17 @@ body {
     margin-top: 30px;
 }
 
-
 .buttonMore {
     width: 240px;
     height: 80px;
     background-color: #FF5858;
     display: flex; 
     justify-content: center; 
+}
+
+.buttonMore:active {
+    transform: scale(0.95); /* Уменьшение элемента при нажатии */
+    background-color: #c26969; /* Темный синий фон при нажатии */
 }
 
 .descriptionButton {

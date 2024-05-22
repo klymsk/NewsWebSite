@@ -167,6 +167,10 @@ body {
     margin-top: 20px;
 }
 
+.blockNameUser {
+    text-decoration: none;
+}
+
 .infUser {
     display: flex;
     flex-direction: row;
