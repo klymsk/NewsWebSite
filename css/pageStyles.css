@@ -28,6 +28,15 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    transition: background-color 1s, box-shadow 1s;
+}
+
+header.sticky {
+    background-color: #cec8ba; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 body {
