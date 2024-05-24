@@ -75,6 +75,19 @@
                 <h1 class = "nameUser">Author topic</h1>
             </a>
         </div>
+
+        <script>
+            window.onscroll = function() {toggleStickyHeader()};
+    
+            function toggleStickyHeader() {
+                var header = document.querySelector("header");
+                if (window.pageYOffset > 0) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
     </main>
 </body>
 </html>
