@@ -1,0 +1,213 @@
+.mainLogo {
+    text-decoration: none;
+    color: black;
+    width: 115px;
+    height: 100px;
+    font-family: "Unbounded";
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.Button {
+    text-decoration: none;
+    color: black;
+    font-family: "Unbounded";
+    font-size: 20px;
+    font-weight: 100;
+}
+
+nav {
+    width: 560px;
+    height: 30px;
+    gap: 40px;
+    margin-top: 35px;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #FFF8E8;
+    margin: 90px 140px 40px 140px;
+}
+
+.headingTopic {
+    text-decoration: none;
+    color: white;
+    font-family: "Unbounded";
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 400px;
+    padding-top: 50px;
+    position: absolute; 
+    bottom: 30px;
+    left: 20px;
+}
+
+.blockSport {
+    background-color: #FF5858;
+    width: 550px;
+    height: 280px;
+    position: relative;
+    transition: background-image 1s ease-in-out;
+}
+
+.blockSport:hover {
+    background-color: transparent; 
+    background-image: url("../img/imageSportTopic.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.itTopic {
+    background-color: #E18AFF;
+    width: 570px;
+    height: 110px;
+    position: relative;
+    transition: background-image 1s ease-in-out;
+}
+
+.itTopic:hover {
+    background-color: transparent; 
+    background-image: url("../img/imageCodingTopic.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.politicTopic {
+    background-color: #1BC841;
+    width: 570px;
+    height: 150px;
+    position: relative;
+    transition: background-image 1s ease-in-out;
+}
+
+.politicTopic:hover {
+    background-color: transparent; 
+    background-image: url("../img/imagePoliticTopic.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.devicesTopic {
+    background-color: #FF7A9A;
+    width: 460px;
+    height: 210px;
+    position: relative;
+    transition: background-image 1s ease-in-out;
+}
+
+.devicesTopic:hover {
+    background-color: transparent; 
+    background-image: url("../img/imageDevicesTopic.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.carsTopic {
+    background-color: #00C1B6;
+    width: 660px;
+    height: 210px;
+    position: relative;
+    transition: background-image 1s ease-in-out;
+}
+
+.carsTopic:hover {
+    background-color: transparent; 
+    background-image: url("../img/imageCarsTopic.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.moreTopic {
+    background-color: #8A8A8A;
+    width: 1145px;
+    height: 90px;
+    position: relative;
+}
+
+.elseContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.firstLineContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.secondLineContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.containerCategories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headerInBlock {
+    text-decoration: none;
+    color: white;
+    font-family: "Unbounded";
+    font-size: 35px;
+    font-weight: 450;
+}
+
+.descriptionInBlock {
+    color: white;
+    font-family: "Unbounded";
+    font-size: 15px;
+    font-weight: 150;
+    width: 350px;
+    height: 50px;
+}
+
+.blockOfNews {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-left: 20px;
+}
+
+.newsOfDayList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.newsDayHeader {
+    color: #FFB800;
+    font-family: "Unbounded";
+    font-size: 35px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.newsOfDay {
+    background-color: #442D00;
+    width: 450px;
+    height: 620px;
+    padding-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+
+
+
+
