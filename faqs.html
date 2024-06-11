@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQS</title>
+    <link rel="icon" href="img/logoPage.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "css/faqsStyles.css">
+</head>
+<body>
+    <header>
+        <a href = "index.html" class = "mainLogo">
+            <img src = "img/logoHeader.png">
+        </a>
+        <nav>
+            <a href = "index.html" class = "Button">Home</a>
+            <a href = "#" class = "Button">New</a>
+            <a href = "#" class = "Button">Popular</a>
+            <a href = "categories.html" class = "Button">Categories</a>
+            <a href = "#" class = "Button">Faqs</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class = "mainStruct">
+            <div class = "mainText">
+                <button class = "butPlus">+</button>
+                <h1 class = "question">What topic do you prefer more in your work?</h1>
+            </div>
+
+            <div class = "mainAnswer">
+                <h1 class = "answer">The best and main topic on our site is a CodingTopic</h1>
+            </div>
+        </div>
+
+        <div class = "mainStruct">
+            <div class = "mainText">
+                <button class = "butPlus">+</button>
+                <h1 class = "question">Contact us</h1>
+            </div>
+    
+            <div class = "mainAnswer">
+                <h1 class = "answer">Twwiter, Instagram, WebSite</h1>
+            </div>
+        </div>
+
+        <div class = "mainStruct">
+            <div class = "mainText">
+                <button class = "butPlus">+</button>
+                <h1 class = "question">Subscribe to our media</h1>
+            </div>
+    
+            <div class = "mainAnswer">
+                <h1 class = "answer">You can get some more interesting news by our subscribe</h1>
+            </div>
+        </div>
+        
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const toggleButtons = document.querySelectorAll('.butPlus');
+            const answers = document.querySelectorAll('.mainAnswer');
+
+            toggleButtons.forEach((button, index) => {
+                button.addEventListener('click', function() {
+                    const answer = answers[index];
+
+                    if (answer.style.maxHeight) {
+                        answer.style.maxHeight = null;
+                        button.textContent = '+';
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        button.textContent = '−';
+                    }
+                });
+            });
+        });
+        </script>
+    </main>
+</body>
+</html>
