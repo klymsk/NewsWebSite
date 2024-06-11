@@ -1,0 +1,80 @@
+.mainLogo {
+    text-decoration: none;
+    color: black;
+    width: 115px;
+    height: 100px;
+    font-family: "Unbounded";
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.Button {
+    text-decoration: none;
+    color: black;
+    font-family: "Unbounded";
+    font-size: 20px;
+    font-weight: 100;
+}
+
+nav {
+    width: 560px;
+    height: 30px;
+    gap: 40px;
+    margin-top: 35px;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #FFF8E8;
+    margin: 90px 140px 40px 140px;
+}
+
+.question {
+    color: black;
+    font-family: "Unbounded";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.butPlus {
+    color: black;
+    font-family: "Unbounded";
+    font-size: 40px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 140px;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.answer {
+    display: flex;
+    color: black;
+    font-family: "Unbounded";
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.mainAnswer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding: 0 20px;
+    border-top: none;
+}
