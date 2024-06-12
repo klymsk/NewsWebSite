@@ -1,11 +1,13 @@
 .mainLogo {
-    text-decoration: none;
-    color: black;
     width: 115px;
     height: 100px;
-    font-family: "Unbounded";
-    font-size: 90px;
-    font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+    .mainLogo {
+        width: 50px;
+        height: 45px;
+    }
 }
 
 .Button {
@@ -16,6 +18,12 @@
     font-weight: 100;
 }
 
+@media screen and (max-width: 600px) {
+    .Button {
+        font-size: 10px;
+    }
+}
+
 nav {
     width: 560px;
     height: 30px;
@@ -24,15 +32,49 @@ nav {
     display: flex;
 }
 
+@media screen and (max-width: 600px) {
+    nav {
+        width: auto;
+        height: 10px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 600px) {
+    header {
+        gap: 20px;
+    }
+}
+
 body {
     background-color: #FFF8E8;
     margin: 90px 140px 40px 140px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+        gap: 40px;
+    }
 }
 
 .mainPhotoNews {
@@ -41,12 +83,30 @@ body {
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: 600px) {
+    .mainPhotoNews {
+        width: 320px;
+        height: 430px;
+        margin-bottom: -120px;
+    }
+}
+
 .firstHeader {
     text-decoration: none;
     color: black;
     font-family: "Unbounded";
     font-size: 90px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .firstHeader {
+        font-size: 30px;
+        color: white;
+        height: 120px;
+        width: 250px;
+        margin-left: 10px;;
+    }
 }
 
 .descriptionNews {
@@ -59,6 +119,14 @@ body {
     height: 110px;
 }
 
+@media screen and (max-width: 600px) {
+    .descriptionNews {
+        width: 320px;
+        height: 120px;
+        font-weight: 350;
+    }
+}
+
 .textButton {
     text-decoration: none;
     color: white;
@@ -67,7 +135,18 @@ body {
     font-weight: 700;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .textButton {
+        font-size: 15px;
+        padding-top: 25px;
+        font-weight: 900;
+    }
 }
 
 .buttonMore {
@@ -76,6 +155,13 @@ body {
     background-color: #FF5858;
     display: flex; 
     justify-content: center; 
+}
+
+@media screen and (max-width: 600px) {
+    .buttonMore {
+        width: 220px;
+        height: 60px;
+    }
 }
 
 .buttonMore:active {
@@ -89,6 +175,12 @@ body {
     gap: 40px;
 }
 
+@media screen and (max-width: 600px) {
+    .descriptionButton {
+        gap: 20px;
+    }
+}
+
 .infoAbNews {
     display: flex;
     flex-direction: row;
@@ -96,9 +188,12 @@ body {
     width: 1150px;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
+@media screen and (max-width: 600px) {
+    .infoAbNews {
+        flex-direction: column;
+        width: auto;
+        gap: 20px;
+    }
 }
 
 .newsOfDay {
@@ -106,6 +201,14 @@ main {
     width: 450px;
     height: 820px;
     margin-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .newsOfDay {
+        width: 320px;
+        height: auto;
+        margin-left: 0px;
+    }
 }
 
 .newsDayHeader {
@@ -120,12 +223,27 @@ main {
     margin-bottom: 60px;
 }
 
+@media screen and (max-width: 600px) {
+    .newsDayHeader {
+        font-size: 25px;
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
 .headerInBlock {
     text-decoration: none;
     color: white;
     font-family: "Unbounded";
     font-size: 35px;
     font-weight: 450;
+}
+
+@media screen and (max-width: 600px) {
+    .headerInBlock {
+        font-size: 20px;
+    }
 }
 
 .descriptionInBlock {
@@ -136,6 +254,14 @@ main {
     width: 350px;
     height: 50px;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .descriptionInBlock {
+        width: 200px;
+        height: 50px;
+        font-size: 10px;
+    }
 }
 
 .blockOfNews1 {
@@ -158,4 +284,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .newsOfDayList {
+        gap: 20px;
+    }
 }
