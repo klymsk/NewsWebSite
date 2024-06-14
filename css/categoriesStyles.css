@@ -1,11 +1,13 @@
 .mainLogo {
-    text-decoration: none;
-    color: black;
     width: 115px;
     height: 100px;
-    font-family: "Unbounded";
-    font-size: 90px;
-    font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+    .mainLogo {
+        width: 50px;
+        height: 45px;
+    }
 }
 
 .Button {
@@ -16,6 +18,12 @@
     font-weight: 100;
 }
 
+@media screen and (max-width: 600px) {
+    .Button {
+        font-size: 10px;
+    }
+}
+
 nav {
     width: 560px;
     height: 30px;
@@ -24,15 +32,48 @@ nav {
     display: flex;
 }
 
+@media screen and (max-width: 600px) {
+    nav {
+        width: auto;
+        height: 10px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 600px) {
+    header {
+        gap: 20px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+}
+
 body {
     background-color: #FFF8E8;
     margin: 90px 140px 40px 140px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
 }
 
 .headingTopic {
@@ -45,12 +86,25 @@ body {
     left: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .headingTopic {
+        font-size: 20px;
+    }
+}
+
 .blockSport {
     background-color: #FF5858;
     width: 550px;
     height: 280px;
     position: relative;
     transition: background-image 1s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    .blockSport {
+        width: 180px;
+        height: 300px;
+    }
 }
 
 .blockSport:hover {
@@ -68,6 +122,13 @@ body {
     transition: background-image 1s ease-in-out;
 }
 
+@media screen and (max-width: 600px) {
+    .itTopic {
+        width: 160px;
+        height: 130px;
+    }
+}
+
 .itTopic:hover {
     background-color: transparent; 
     background-image: url("../img/imageCodingTopic.jpg");
@@ -81,6 +142,13 @@ body {
     height: 150px;
     position: relative;
     transition: background-image 1s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    .politicTopic {
+        width: 160px;
+        height: 160px;
+    }
 }
 
 .politicTopic:hover {
@@ -98,6 +166,13 @@ body {
     transition: background-image 1s ease-in-out;
 }
 
+@media screen and (max-width: 600px) {
+    .devicesTopic {
+        width: 200px;
+        height: 210px;
+    }
+}
+
 .devicesTopic:hover {
     background-color: transparent; 
     background-image: url("../img/imageDevicesTopic.jpg");
@@ -111,6 +186,13 @@ body {
     height: 210px;
     position: relative;
     transition: background-image 1s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    .carsTopic {
+        width: 140px;
+        height: 210px;
+    }
 }
 
 .carsTopic:hover {
@@ -127,10 +209,23 @@ body {
     position: relative;
 }
 
+@media screen and (max-width: 600px) {
+    .moreTopic {
+        width: 350px;
+        height: 65px;
+    }
+}
+
 .elseContainer {
     display: flex;
     gap: 20px;
     flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .elseContainer {
+        gap: 10px;
+    }
 }
 
 .firstLineContainer {
@@ -139,16 +234,34 @@ body {
     gap: 25px;
 }
 
+@media screen and (max-width: 600px) {
+    .firstLineContainer {
+        gap: 10px;
+    }
+}
+
 .secondLineContainer {
     display: flex;
     flex-direction: row;
     gap: 25px;
 }
 
+@media screen and (max-width: 600px) {
+    .secondLineContainer {
+        gap: 10px;
+    }
+}
+
 .containerCategories {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .containerCategories {
+        gap: 10px;
+    }
 }
 
 .headerInBlock {
@@ -199,11 +312,6 @@ body {
     padding-top: 10px;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-}
 
 
 

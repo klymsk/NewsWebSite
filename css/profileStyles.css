@@ -1,11 +1,13 @@
 .mainLogo {
-    text-decoration: none;
-    color: black;
     width: 115px;
     height: 100px;
-    font-family: "Unbounded";
-    font-size: 90px;
-    font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+    .mainLogo {
+        width: 50px;
+        height: 45px;
+    }
 }
 
 .Button {
@@ -16,6 +18,12 @@
     font-weight: 100;
 }
 
+@media screen and (max-width: 600px) {
+    .Button {
+        font-size: 10px;
+    }
+}
+
 nav {
     width: 560px;
     height: 30px;
@@ -24,15 +32,36 @@ nav {
     display: flex;
 }
 
+@media screen and (max-width: 600px) {
+    nav {
+        width: auto;
+        height: 10px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 600px) {
+    header {
+        gap: 20px;
+    }
+}
+
 body {
     background-color: #FFF8E8;
     margin: 90px 140px 40px 140px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
 }
 
 main {
@@ -46,10 +75,27 @@ main {
     align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+    main {
+        margin-left: 20px;
+        width: 300px;
+        height: auto;
+    }
+}
+
 .photoUser {
     width: 240px;
     height: 240px;
     margin-left: 85px;
+}
+
+@media screen and (max-width: 600px) {
+    .photoUser {
+        margin-left: 105px;
+        margin-top: 20px;
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .nameTopic1 {
@@ -64,6 +110,7 @@ main {
     align-items: center;
     padding-left: 10px;
 }
+
 
 .nameTopic2 {
     background-color: #1BC841;
@@ -125,6 +172,12 @@ main {
     gap: 15px;
 }
 
+@media screen and (max-width: 600px) {
+    .firstLineBlocks {
+        margin-left: 0px;
+    }
+}
+
 .secondLineBlocks {
     display: flex;
     flex-direction: row;
@@ -132,11 +185,30 @@ main {
     gap: 15px;
 }
 
+@media screen and (max-width: 600px) {
+    .secondLineBlocks {
+        margin-left: 50px;
+    }
+}
+
 .userName {
     font-family: "Unbounded";
     font-size: 40px;
     font-weight: 800px;
     color: #FFB800;
+}
+
+@media screen and (max-width: 600px) {
+    .userName {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blockName {
+        width: auto;
+        height: auto;
+    }
 }
 
 .nameBlock {
@@ -155,6 +227,20 @@ main {
     height: 200px;
 }
 
+@media screen and (max-width: 600px) {
+    .descriptionUser {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .descriptionUser {
+        font-size: 10px;
+        width: 270px;
+        height: auto;
+    }
+}
+
 .blockInfUser {
     gap: 15px;
 }
@@ -168,5 +254,12 @@ main {
     display: flex;
     flex-direction: row;
     gap: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .generalInfo {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
