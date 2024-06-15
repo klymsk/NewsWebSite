@@ -74,6 +74,7 @@ body {
 @media screen and (max-width: 600px) {
     .question {
         font-size: 20px;
+        width: auto;
     }
 }
 
@@ -96,10 +97,16 @@ body {
 .mainText {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 25px;
     margin-top: 140px;
     justify-content: center;
     opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+    .mainText {
+        margin-top: 100px;
+    }
 }
 
 .answer {
