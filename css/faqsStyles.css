@@ -1,11 +1,13 @@
 .mainLogo {
-    text-decoration: none;
-    color: black;
     width: 115px;
     height: 100px;
-    font-family: "Unbounded";
-    font-size: 90px;
-    font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+    .mainLogo {
+        width: 50px;
+        height: 45px;
+    }
 }
 
 .Button {
@@ -16,6 +18,12 @@
     font-weight: 100;
 }
 
+@media screen and (max-width: 600px) {
+    .Button {
+        font-size: 10px;
+    }
+}
+
 nav {
     width: 560px;
     height: 30px;
@@ -24,10 +32,25 @@ nav {
     display: flex;
 }
 
+@media screen and (max-width: 600px) {
+    nav {
+        width: auto;
+        height: 10px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        gap: 20px;
+    }
 }
 
 body {
@@ -35,11 +58,23 @@ body {
     margin: 90px 140px 40px 140px;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+}
+
 .question {
     color: black;
     font-family: "Unbounded";
     font-size: 40px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .question {
+        font-size: 20px;
+    }
 }
 
 .butPlus {
@@ -50,6 +85,12 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .butPlus {
+        font-size: 20px;
+    }
 }
 
 .mainText {
@@ -69,6 +110,12 @@ body {
     font-weight: 700;
     justify-content: center;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+    .answer {
+        font-size: 15px;
+    }
 }
 
 .mainAnswer {
