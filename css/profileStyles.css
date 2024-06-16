@@ -24,6 +24,12 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .Button {
+        font-size: 15px;
+    }
+}
+
 nav {
     width: 560px;
     height: 30px;
@@ -41,6 +47,13 @@ nav {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    nav {
+        width: 480px;
+        height: 25px;
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -53,6 +66,12 @@ header {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    header {
+        gap: 740px;
+    }
+}
+
 body {
     background-color: #FFF8E8;
     margin: 90px 140px 40px 140px;
@@ -61,6 +80,12 @@ body {
 @media screen and (max-width: 600px) {
     body {
         margin: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        margin: 80px 60px 40px 60px;
     }
 }
 
@@ -80,6 +105,12 @@ main {
         margin-left: 20px;
         width: 300px;
         height: auto;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    main {
+        margin-left: 70px;
     }
 }
 
