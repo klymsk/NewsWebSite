@@ -24,6 +24,12 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .Button {
+        font-size: 15px;
+    }
+}
+
 nav {
     width: 560px;
     height: 30px;
@@ -41,6 +47,13 @@ nav {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    nav {
+        width: 480px;
+        height: 25px;
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -53,6 +66,12 @@ header {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    header {
+        gap: 740px;
+    }
+}
+
 body {
     background-color: #FFF8E8;
     margin: 90px 140px 40px 140px;
@@ -62,6 +81,12 @@ body {
 @media screen and (max-width: 600px) {
     body {
         margin: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        margin: 80px 60px 40px 60px;
     }
 }
 
@@ -85,9 +110,15 @@ main {
 
 @media screen and (max-width: 600px) {
     .mainPhotoNews {
-        width: 320px;
+        width: 350px;
         height: 430px;
         margin-bottom: -120px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .mainPhotoNews {
+        width: 880px;
     }
 }
 
@@ -109,6 +140,14 @@ main {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .firstHeader {
+        font-size: 60px;
+        width: 570px;
+        height: 210px;
+    }
+}
+
 .descriptionNews {
     text-decoration: none;
     color: black;
@@ -121,9 +160,17 @@ main {
 
 @media screen and (max-width: 600px) {
     .descriptionNews {
-        width: 320px;
+        width: 350px;
         height: 120px;
         font-weight: 350;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .descriptionNews {
+        font-size: 10px;
+        width: 235px;
+        height: 100px;
     }
 }
 
@@ -146,6 +193,12 @@ main {
         font-size: 15px;
         padding-top: 25px;
         font-weight: 900;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .textButton {
+        font-size: 15px;
     }
 }
 
@@ -181,11 +234,17 @@ main {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .descriptionButton {
+        gap: 25px;
+    }
+}
+
 .infoAbNews {
     display: flex;
     flex-direction: row;
     gap: 155px;
-    width: 1150px;
+    width: auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -193,6 +252,12 @@ main {
         flex-direction: column;
         width: auto;
         gap: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .infoAbNews {
+        gap: 75px;
     }
 }
 
@@ -205,9 +270,17 @@ main {
 
 @media screen and (max-width: 600px) {
     .newsOfDay {
-        width: 320px;
+        width: 350px;
         height: auto;
         margin-left: 0px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .newsOfDay {
+        width: 400px;
+        height: auto;
+        padding-left: 10px;
     }
 }
 
@@ -232,6 +305,14 @@ main {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .newsDayHeader {
+        font-size: 30px;
+        width: auto;
+        height: auto;
+    }
+}
+
 .headerInBlock {
     text-decoration: none;
     color: white;
@@ -243,6 +324,12 @@ main {
 @media screen and (max-width: 600px) {
     .headerInBlock {
         font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .headerInBlock {
+        font-size: 25px;
     }
 }
 
@@ -264,30 +351,27 @@ main {
     }
 }
 
-.blockOfNews1 {
-    margin-left: 20px;
-}
-
-.blockOfNews2 {
-    margin-left: 20px;
-}
-
-.blockOfNews3 {
-    margin-left: 20px;
-}
-
-.blockOfNews4 {
-    margin-left: 20px;
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .descriptionInBlock {
+        font-size: 15px;
+    }
 }
 
 .newsOfDayList {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-left: 25px;
 }
 
 @media screen and (max-width: 600px) {
     .newsOfDayList {
         gap: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .newsOfDayList {
+        margin-left: 15px;
     }
 }
