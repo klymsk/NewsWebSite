@@ -24,6 +24,12 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .Button {
+        font-size: 15px;
+    }
+}
+
 nav {
     width: 560px;
     height: 30px;
@@ -38,6 +44,13 @@ nav {
         height: 10px;
         gap: 10px;
         margin-top: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    nav {
+        width: 480px;
+        height: 25px;
     }
 }
 
@@ -57,6 +70,12 @@ header {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    header {
+        gap: 740px;
+    }
+}
+
 header.sticky {
     background-color: #cec8ba; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
@@ -73,6 +92,12 @@ body {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        margin: 80px 60px 40px 60px;
+    }
+}
+
 main {
     margin-left: 250px;
     margin-right: 250px;
@@ -81,6 +106,12 @@ main {
 @media screen and (max-width: 600px) {
     main {
         margin-left: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    main {
+        margin-left: 100px;
     }
 }
 
@@ -113,11 +144,19 @@ main {
 @media screen and (max-width: 600px) {
     .headerTopic {
         font-size: 40px;
-        width: 300px;
+        width: 320px;
         height: 270px;
         margin-left: 10px;
         line-height: 1.1;
         margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .headerTopic {
+        width: auto;
+        height: 260px;
+        font-weight: 800;
     }
 }
 
@@ -206,7 +245,7 @@ main {
 @media screen and (max-width: 600px) {
     .boxFollow {
         width: 95px;
-        margin-left: 60px;
+        margin-left: 80px;
     }
 }
 
@@ -251,7 +290,7 @@ main {
 
 @media screen and (max-width: 600px) {
     .descriptionText {
-        width: 320px;
+        width: 330px;
         margin-left: 10px;
     }
 }
@@ -267,6 +306,12 @@ main {
     font-size: 10px;
     font-weight: 700;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .nameUser {
+        width: auto;
+    }
 }
 
 .blockNameUser {
