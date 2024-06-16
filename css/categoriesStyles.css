@@ -24,6 +24,13 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .Button {
+        font-size: 15px;
+    }
+}
+
+
 nav {
     width: 560px;
     height: 30px;
@@ -41,6 +48,13 @@ nav {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    nav {
+        width: 480px;
+        height: 25px;
+    }
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -50,6 +64,12 @@ header {
 @media screen and (max-width: 600px) {
     header {
         gap: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    header {
+        gap: 720px;
     }
 }
 
@@ -73,7 +93,13 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
-        margin: 20px;
+        margin: 0px 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        margin-left: 90px;
     }
 }
 
@@ -110,6 +136,13 @@ body {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .blockSport {
+        width: 475px;
+        height: 300px;
+    }
+}
+
 .blockSport:hover {
     background-color: transparent; 
     background-image: url("../img/imageSportTopic.jpg");
@@ -131,6 +164,13 @@ body {
         width: 160px;
         height: 130px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .itTopic {
+        width: 350px;
+        height: 130px;
     }
 }
 
@@ -158,6 +198,13 @@ body {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .politicTopic {
+        width: 350px;
+        height: 150px;
+    }
+}
+
 .politicTopic:hover {
     background-color: transparent; 
     background-image: url("../img/imagePoliticTopic.jpg");
@@ -179,6 +226,13 @@ body {
         width: 200px;
         height: 210px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .devicesTopic {
+        width: 430px;
+        height: 230px;
     }
 }
 
@@ -206,6 +260,13 @@ body {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .carsTopic {
+        width: 395px;
+        height: 230px;
+    }
+}
+
 .carsTopic:hover {
     background-color: transparent; 
     background-image: url("../img/imageCarsTopic.jpg");
@@ -226,6 +287,12 @@ body {
         width: 350px;
         height: 65px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .moreTopic {
+        width: 850px;
     }
 }
 
@@ -291,6 +358,12 @@ body {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .headerInBlock {
+        font-weight: 300;
+    }
+}
+
 .descriptionInBlock {
     text-decoration: none;
     color: white;
@@ -328,6 +401,12 @@ body {
     gap: 30px;
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .newsOfDayList {
+        gap: 40px;
+    }
+}
+
 .newsDayHeader {
     color: #FFB800;
     font-family: "Unbounded";
@@ -345,6 +424,12 @@ body {
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .newsDayHeader {
+        font-size: 30px;
+    }
+}
+
 .newsOfDay {
     background-color: #442D00;
     width: 450px;
@@ -356,6 +441,13 @@ body {
     .newsOfDay {
         width: 350px;
         height: 430px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .newsOfDay {
+        width: 370px;
+        height: 650px;
     }
 }
 
